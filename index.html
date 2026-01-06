@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Movies Explorer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <h1 class="logo">HP CINEMA</h1>
+            
+            <div class="search-container">
+                <input id="movieInput" type="text" placeholder="Search movies by title...">
+                <button id="searchBtn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <div class="filter-container">
+                <label for="sortFilter">Sort by:</label>
+                <select id="sortFilter">
+                    <option value="default">Relevance</option>
+                    <option value="year">Newest First</option>
+                    <option value="rating">Top Rated</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="loader" class="loader hidden"></div>
+
+        <div id="movieGrid" class="movie-grid">
+            </div>
+
+        <div id="placeholder" class="placeholder">
+            <i class="fa-solid fa-film"></i>
+            <p>Search for a movie to see details and ratings.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
