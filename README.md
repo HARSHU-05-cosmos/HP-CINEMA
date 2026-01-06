@@ -1,7 +1,7 @@
 A modern, responsive web application for searching and exploring movies using the OMDb API.
 
 📂 Project Details  
-Technologies: HTML, Pure CSS, Vanilla JavaScript.  
+Technologies: HTML, Pure CSS,  JavaScript.  
 API: OMDb API (https://www.omdbapi.com/).  
 
 ✨ Key Features
